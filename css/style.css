@@ -1,0 +1,13 @@
+/* reset */
+*{margin: 0; padding: 0; box-sizing: border-box;}
+li{list-style: none;}
+body{font-family: Georgia, 'Times New Roman', Times, serif; color: #252525; background-color: #e7e4d8;}
+img{max-width: 100%; display: block;}
+a{text-decoration: none;}
+/* header */
+.header{background-color: #d6d3c8; padding: 20px;}
+.header::after, .header::before{content: ''; display: table; clear: both;}
+.header-logo{float: left;}
+.header-menu ul{float: right;}
+.header-menu ul li{display: inline-block;}
+.header-menu ul li  a{ }
